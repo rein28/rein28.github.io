@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Haukai Restaurant </title>
+    <link rel='stylesheet' type='text/css' href='./style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&family=Tiro+Telugu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="header">
+    <nav>
+        <a href="home.html"><img src="./images/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./home.html">HOME</a></li>
+                    <li><a href="./hours.html">HOURS</a></li>
+                    <li><a href="./menu.html">MENU</a></li>
+                    <li><a href="./reservations.html">RESERVATIONS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+        </div>  
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <br>
+    <br>
+    <br>
+	<div class="home-text">
+        <h1>~ Ka wheako i nga tikanga M&amacr;ori ma te kai ~</h1>
+        <h2>(Experience the M&amacr;ori culture through food)</h2>
+		<button><a href="./menu.html"><h2>MENU</h2></a></button>
+		<button><a href="./reservations.html"><h2>RESERVATIONS</h2></a></button>
+		<br>
+	</div>	
+</div>
+<div class="page-content">
+	<h3>THE HAUKAI RESTAURANT</h3>
+    <p>Haukai Restaurant specialises in M&amacr;ori kai and is based in the Bay of Islands.<br>
+	The dinner menu features M&amacr;ori and P&amacr;keha kai options and drinks.<br>
+	We want our guests to experience Te Ao M&amacr;ori with the use of karakia for <br>
+	blessing food and other M&amacr;ori culture.
+	The town is also near The Lord of the Rings site.<br>
+	We hope to see you soon and experience the M&amacr;ori culture through food.
+    <br>
+    <br>
+    
+</div>
+<div class="footer">
+    <hr>
+    <i class="fa fa-cutlery"></i>&nbsp;THE HAUKAI RESTAURANT<br>
+    <i class="fa fa-map-signs"></i>&nbsp; Address: 1 Island Street Keirikeri, Bay of Islands, New Zealand<br>
+    <i class="fa fa-phone"></i>&nbsp;Phone: (09)401 4019<br> 
+    <i class="fas fa-thumbs-up"></i> Follow us on
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a><br>
+    <i class="fa-solid fa-face-grin-beam"></i> Website made by: Renei Dula <i class="fa-solid fa-face-grin-beam"></i><br>
+</div>
+    
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-500px";
+    }
+    
+</script>
+    
+</body>
+</html>
